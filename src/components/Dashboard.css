@@ -1,0 +1,159 @@
+/* Dashboard container */
+.dashboard-container {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  position: relative;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #797777;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav-left a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nav-right {
+  position: relative;
+  max-height: fit-content;
+}
+
+.clipart {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-menu div {
+  padding: 10px;
+  cursor: pointer;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect with blue background */
+.dropdown-menu div:hover {
+  background-color: #41ed83;
+  color: white;
+}
+
+/* Dashboard content */
+.dashboard-content {
+  padding: 50px;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-icon {
+  width: 40px; /* Adjust the size of the menu icon */
+  height: 40px;
+  cursor: pointer;
+}
+
+.menu-options {
+  position: absolute;
+  background-color: #fff; /* Background for dropdown */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 5px;
+  top: 50px; /* Position it below the menu icon */
+  right: 0; /* Align to the right */
+}
+
+.menu-options div {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.menu-options div:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+}
+
+.download-section {
+  margin-top: 20px;
+}
+
+.download-section h3 {
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.download-image {
+  width: 200px; /* Set the size of the image */
+  height: auto;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  align-content: center;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.download-image:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-section {
+  margin-top: 20px;
+}
+
+.dashboard-video {
+  width: 100%; /* Adjust the width of the video */
+  max-width: 600px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.download-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #4af89b;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.download-button:hover {
+  background-color: #62f2ce;
+}
+
+.menu-options {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.nav-right {
+  width: 40px;
+  height: 40px;
+}
+
+.menu-image {
+  width: 40px;
+  height: auto;
+}

@@ -1,0 +1,23 @@
+.help-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.help-details {
+  margin-top: 10px;
+}
+
+.contact-email {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.contact-email:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
